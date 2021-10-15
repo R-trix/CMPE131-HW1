@@ -11,8 +11,12 @@ def calculator(number1, number2, operator):
     if operator == "*":
         return a * b
     if operator == "/":
+        if b == 0:
+            return False
         return a / b
     if operator == "//":
+        if b == 0:
+            return False
         return a // b
     if operator == "**":
         return a ** b
