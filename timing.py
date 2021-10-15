@@ -6,5 +6,5 @@ def calculate_time(func):
     end_time = time.time()
     total_time = end_time - start_time
     X = int(total_time)
-    print ('Total time %s' %(X))
+    return ('Total time %s' %(X))
 
